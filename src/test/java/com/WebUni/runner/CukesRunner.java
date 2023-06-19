@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
 
         features = "C:\\Users\\Kurt2\\IdeaProjects\\WebDriverUni_Cucumber\\src\\test\\resources\\feature",
         glue = "com/WebUni/stepDefinitions",
-        tags = "@login",
+        tags = "@clickButtons",
         dryRun = false
 
         // C:\Users\Kurt2\IdeaProjects\DenemeTest\src\test\resources\feature
