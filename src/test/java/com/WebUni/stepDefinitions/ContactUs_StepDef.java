@@ -9,7 +9,7 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
 
-public class MyStepdefs {
+public class ContactUs_StepDef {
     ContactUs contactUs = new ContactUs();
     @Given("The user accesses the Web driver University Home Page")
     public void theUserAccessesTheWebDriverUniversityHomePage() {
