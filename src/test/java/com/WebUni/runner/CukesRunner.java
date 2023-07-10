@@ -9,6 +9,11 @@ import org.testng.annotations.AfterClass;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
+        plugin = {"json:target/cucumber.json",
+                "html:target/default-html-reports",
+                "rerun:target/rerun.txt",
+                "de.monochromata.cucumber.report.PrettyReports:target/cucumber"
+        },
 
         features = "src/test/resources/feature",
         glue = "com/WebUni/stepDefinitions",
